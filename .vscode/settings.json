@@ -1,0 +1,24 @@
+{
+  "python-envs.defaultEnvManager": "ms-python.python:venv",
+  "python-envs.defaultPackageManager": "ms-python.python:pip",
+  "python.defaultInterpreterPath": "${workspaceFolder}/zero-to-tech-4-1/backend/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.terminal.executeInFileDir": true,
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/zero-to-tech-4-1/backend"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/zero-to-tech-4-1/backend"
+  ],
+  "python-envs.workspaceSearchPaths": [
+    "${workspaceFolder}/zero-to-tech-4-1/backend/.venv"
+  ],
+  "python-envs.pythonProjects": [
+    {
+      "path": "zero-to-tech-4-1/backend",
+      "envManager": "ms-python.python:venv",
+      "packageManager": "ms-python.python:pip"
+    }
+  ]
+}
